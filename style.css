@@ -1,0 +1,49 @@
+/* Arvo Gruen - for headlines */
+@font-face {
+    font-family: 'Arvo Gruen';
+    src: url('fonts/Arvo_Gruen_2015_10.eot');
+    src: url('fonts/Arvo_Gruen_2015_10.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Arvo_Gruen_2015_10.woff') format('woff');
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+/* Arvo Roman - for sub headlines */
+@font-face {
+    font-family: 'Arvo';
+    src: url('fonts/arvo_regular.eot');
+    src: url('fonts/arvo_regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/arvo_regular.woff') format('woff'),
+         url('fonts/arvo_regular.ttf') format('truetype'),
+         url('fonts/arvo_regular.svg') format('svg');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* PT Sans - for normal text */
+@font-face {
+    font-family: 'PT Sans';
+    src: url('fonts/ptsans_regular.eot');
+    src: url('fonts/ptsans_regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ptsans_regular.woff') format('woff'),
+         url('fonts/ptsans_regular.ttf') format('truetype'),
+         url('fonts/ptsans_regular.svg') format('svg');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* PT Sans bold - for emphasis in normal text */
+@font-face {
+    font-family: 'PT Sans';
+    src: url('fonts/ptsans_bold.eot');
+    src: url('fonts/ptsans_bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ptsans_bold.woff') format('woff'),
+         url('fonts/ptsans_bold.ttf') format('truetype'),
+         url('fonts/ptsans_bold.svg') format('svg');
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
