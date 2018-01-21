@@ -1,0 +1,100 @@
+<html>
+<head>
+  <title>Webfonts Testseite</title>
+  <meta charset="utf-8">
+  <style type="text/css">
+
+  /* Arvo Gruen - for headlines */
+  @font-face {
+      font-family: 'Arvo Gruen';
+      src: url('fonts/Arvo_Gruen_2015_10.eot');
+      src: url('fonts/Arvo_Gruen_2015_10.eot?#iefix') format('embedded-opentype'),
+           url('fonts/Arvo_Gruen_2015_10.woff') format('woff');
+      font-style: normal;
+      font-weight: bold;
+      text-rendering: optimizeLegibility;
+  }
+
+  /* Arvo Roman - for sub headlines */
+  @font-face {
+      font-family: 'Arvo';
+      src: url('fonts/arvo_regular.eot');
+      src: url('fonts/arvo_regular.eot?#iefix') format('embedded-opentype'),
+           url('fonts/arvo_regular.woff') format('woff'),
+           url('fonts/arvo_regular.ttf') format('truetype'),
+           url('fonts/arvo_regular.svg') format('svg');
+      font-style: normal;
+      font-weight: normal;
+      text-rendering: optimizeLegibility;
+  }
+
+  /* PT Sans - for normal text */
+  @font-face {
+      font-family: 'PT Sans';
+      src: url('fonts/ptsans_regular.eot');
+      src: url('fonts/ptsans_regular.eot?#iefix') format('embedded-opentype'),
+           url('fonts/ptsans_regular.woff') format('woff'),
+           url('fonts/ptsans_regular.ttf') format('truetype'),
+           url('fonts/ptsans_regular.svg') format('svg');
+      font-style: normal;
+      font-weight: normal;
+      text-rendering: optimizeLegibility;
+  }
+
+  /* PT Sans bold - for emphasis in normal text */
+  @font-face {
+      font-family: 'PT Sans';
+      src: url('fonts/ptsans_bold.eot');
+      src: url('fonts/ptsans_bold.eot?#iefix') format('embedded-opentype'),
+           url('fonts/ptsans_bold.woff') format('woff'),
+           url('fonts/ptsans_bold.ttf') format('truetype'),
+           url('fonts/ptsans_bold.svg') format('svg');
+      font-style: normal;
+      font-weight: bold;
+      text-rendering: optimizeLegibility;
+  }
+
+  /* With the styles below we apply the font settings defined above */
+
+  body {
+    font-family: "PT Sans", monospace;
+    font-weight: normal;
+  }
+
+  bold, strong {
+    font-family: "PT Sans", monospace;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-family: 'Arvo Gruen', monospace;
+    font-weight: bold;
+  }
+
+  h2, h3, h4 {
+    font-family: Arvo, monospace;
+    font-weight: normal;
+  }
+
+  .monospace {
+    font-family: monospace;
+  }
+
+  </style>
+</head>
+<body>
+
+<h1>Das ist eine Seitenüberschrift (H1) in Arvo Gruen</h1>
+
+<h2>Das ist eine Zwischenüberschrift (H2) in Arvo</h2>
+
+<p>Normaler Text erscheint in der PT Sans.</p>
+
+<p>Hier ein Beispiel für <strong>fett hervorgehobenen Text in PT Sans Bold</strong></p>
+
+<p>Beachte: es gibt <em>keine kursiven Schnitte</em>, weder für Überschriften, noch für normalen Text.</p>
+
+<p>Fehlerhaft geladene bzw. formatierte Texte erscheinen <span class="monospace">in dieser Schrift</span>.</p>
+
+</body>
+</html>
