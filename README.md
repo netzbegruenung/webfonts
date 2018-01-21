@@ -1,7 +1,7 @@
 # Grüne Webfonts
 
-Dieses Repository bietet die im Corporate Design Guide von
-Bündnis 90/Die Grünen festgelegten Schriften für die Verwendung
+Dieses Repository bietet die [im Corporate Design Guide von
+Bündnis 90/Die Grünen festgelegten Schriften](https://www.gruene.de/service/2015/das-neue-gruene-corporate-design/schriften-im-neuen-corporate-design.html#comment-form) für die Verwendung
 auf Webseiten an.
 
 ## So funktioniert's
