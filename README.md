@@ -1,8 +1,7 @@
 # Grüne Webfonts
 
-Dieses Repository bietet die [im Corporate Design Guide von
-Bündnis 90/Die Grünen festgelegten Schriften](https://www.gruene.de/service/2015/das-neue-gruene-corporate-design/schriften-im-neuen-corporate-design.html#comment-form) für die Verwendung
-auf Webseiten an.
+Dieses Repository bietet die im [Styleguide für digitale Anwendungen](https://zeroheight.com/0cb5678fa/p/150f78-typografie)
+von Bündnis 90/Die Grünen festgelegten Schriften für die Verwendung auf Webseiten an.
 
 ## So funktioniert's
 
@@ -12,6 +11,12 @@ und `</head>` Tag) dieses `link` Tag ein:
 
 ```html
 <link rel="stylesheet" type="text/css" href="https://netzbegruenung.github.io/webfonts/style.css">
+```
+
+Oder verwende ein `@import`-Statement in deinem Stylesheet:
+
+```css
+@import url('https://netzbegruenung.github.io/webfonts/style.css');
 ```
 
 Um die Schriften anzuwenden, musst Du per CSS die gewünschte
@@ -33,9 +38,13 @@ https://netzbegruenung.github.io/webfonts/test.html
 
 - Es gibt keine kursiven Varianten ("Schnitte") der hier angebotenen Schriften
 
+- GrueneType wird ausschließlich im Schnitt Black Condensed Italic verwendet
+
 ## Lizenzen
 
 Die Schriften im `fonts` Verzeichnis unterliegen diversen Lizenzen:
+
+- GruenType: TODO
 
 - PT Sans Regular, PT Sans Bold: ParaType Free Font License (enthalten
   als Datei `LICENSE.txt` im selben Verzeichnis)
