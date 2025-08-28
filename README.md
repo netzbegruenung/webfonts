@@ -1,6 +1,6 @@
 # Grüne Webfonts
 
-Dieses Repository bietet die im [Styleguide für digitale Anwendungen](https://zeroheight.com/0cb5678fa/p/150f78-typografie)
+Dieses Repository bietet die im [Styleguide für digitale Anwendungen](https://design.gruene.de/4ccd94a80/p/93942a-typografie/b/137a4f)
 von Bündnis 90/Die Grünen festgelegten Schriften für die Verwendung auf Webseiten an.
 
 ## So funktioniert's
@@ -38,7 +38,7 @@ https://netzbegruenung.github.io/webfonts/test.html
 
 - Es gibt keine kursiven Varianten ("Schnitte") der hier angebotenen Schriften
 
-- GrueneType wird ausschließlich im Schnitt Black Condensed Italic verwendet
+- GrueneType (bzw. GrueneTypeNeue) sieht aus wie Black Italic, ist aber in den Metadaten der Font und im Styleguide als Regular definiert. Für diese Schrift gibt es außerdem keinen anderen Schnitt.
 
 ## Lizenzen
 
@@ -57,6 +57,6 @@ Alle weiteren Inhalte sind gemeinfrei (Public Domain).
 
 Dies ist ein Service von netzbegrünung.
 
-TODO: Ein Standard-Satz über netzbegrünung.
+Unter dem Label netzbegrünung engagieren sich seit 2006 Personen aus dem Umfeld der Partei BÜNDNIS 90/DIE GRÜNEN.
 
 Weitere Informationen unter [netzbegruenung.de](https://blog.netzbegruenung.de/)
