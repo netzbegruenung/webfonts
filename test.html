@@ -3,57 +3,77 @@
   <title>Webfonts Testseite</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <style type="text/css">
-
-
-  /* With the styles below we apply the font settings defined above */
-
+  <style>
   body {
-    font-family: "PT Sans", monospace;
+    font-family: "PT Sans", sans-serif;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.125rem; /* g-body-m */
   }
 
-  bold, strong {
-    font-family: "PT Sans", monospace;
-    font-weight: bold;
+  h1, h2 {
+    font-family: "GrueneType", "PT Sans", sans-serif;
   }
 
   h1 {
-    font-family: 'Arvo Gruen', monospace;
+    font-size: 3.75rem; /* g-xxl */
+  }
+
+  h2 {
+    font-size: 2.5rem; /* g-xl */
+  }
+
+  h3 {
+    font-size: 1.5625rem; /* g-subheadline-l */
+  }
+
+  b, strong, h3 {
     font-weight: bold;
   }
 
-  h2, h3, h4 {
-    font-family: Arvo, monospace;
+  .sans-serif {
+    font-family: sans-serif;
+  }
+
+  /* Arvo may still be used in older applications */
+
+  .arvo h2 {
+    font-family: "Arvo Gruen", Arvo, "PT Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .arvo h3 {
+    font-family: Arvo, "Arvo Gruen", "PT Sans", sans-serif;
     font-weight: normal;
-  }
-
-  .monospace {
-    font-family: monospace;
-  }
-
-  .title {
-    font-family: "GrueneType";
-    font-size: 3rem;
   }
   </style>
 </head>
 <body>
 
-<h1 class="title">Seiten-Titel in GrueneType</h1>
+<h1>Seiten-Titel in GrueneType</h1>
 
-<h1>Das ist eine Seitenüberschrift (H1) in Arvo Gruen</h1>
+<section>
+  <h2>Das ist eine Hauptüberschrift in GrueneType</h2>
+  <p>
+    <strong>Achtung:</strong> Die aktuelle Version von GrueneType ist auch als GrueneType Neue bekannt. Im Gegensatz zu früheren Versionen, ist der Font-Style als "normal" definiert, nicht als "italic." Eigenes CSS sollte ggf. angepasst werden.
+  </p>
+  <p>Wir empfehlen, den <a href="https://design.gruene.de/">Styleguide</a> der Partei zu berücksichtigen.</p>
+  <h3>Das ist eine Zwischenüberschrift in PT Sans</h3>
+  <p>Normaler Text erscheint ebenfalls in PT Sans.</p>
+  <p>
+    <strong>Achtung:</strong> Es sind <em>keine kursiven Schnitte</em> definiert, weder für Überschriften, noch für normalen Text.
+  </p>
+  <p>Formatierst Du Texte dennoch als kursiv (z.B. per CSS oder mit dem HTML Tag <code>em</code>), wird dieser Schnitt vom Browser erzeugt. Bei PT Sans ist das Ergebnis verwendbar, aber nicht empfehlenswert. Bei den anderen Schriften raten wir stark davon ab, italic zu nutzen.</p>
+  <p>Fehlerhaft geladene bzw. formatierte Texte erscheinen <span class="sans-serif">in dieser Schrift</span>.</p>
+</section>
 
-<h2>Das ist eine Zwischenüberschrift (H2) in Arvo</h2>
-
-<p>Normaler Text erscheint in der PT Sans.</p>
-
-<p>Hier ein Beispiel für <strong>fett hervorgehobenen Text in PT Sans Bold</strong></p>
-
-<p>Beachte: es gibt <em>keine kursiven Schnitte</em>, weder für Überschriften, noch für normalen Text. Formatierst Du trotzdem Texte mit dem <code>i</code> oder <code>em</code> tag oder verwendest den CSS <code>font-style: italic</code>, wird dieser Schnitt vom System erzeugt, was qualitativ nur ein mäßiges Ergebnis erzeugt.</p>
-
-<p>Fehlerhaft geladene bzw. formatierte Texte erscheinen <span class="monospace">in dieser Schrift</span>.</p>
+<section class="arvo">
+  <h2>Das ist eine Hauptüberschrift in Arvo Gruen</h2>
+  <h3>Das ist eine Zwischenüberschrift in Arvo</h3>
+  <p>
+    <strong>Achtung:</strong> Arvo ist nicht Teil des aktuellen Styleguides und sollte für neue Anwendungen nicht mehr verwendet werden.
+  </p>
+</section>
 
 </body>
 </html>
