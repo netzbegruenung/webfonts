@@ -51,15 +51,15 @@
 /* GrueneType - for big distinctive headlines */
 @font-face {
     font-family: "GrueneType";
-    src: url("fonts/GrueneType.eot");
-    src: url("fonts/GrueneType.eot?#iefix")
-        format("embedded-opentype"),
-      url("fonts/GrueneType.woff2") format("woff2"),
-      url("fonts/GrueneType.woff") format("woff"),
-      url("fonts/GrueneType.ttf") format("truetype"),
-      url("fonts/GrueneType.svg#GrueneType-BlackCondensedItalic")
+    src: url("fonts/GrueneTypeNeue.eot");
+    src: url("fonts/GrueneTypeNeue.eot?#iefix") format("embedded-opentype"),
+      url("fonts/GrueneTypeNeue.woff2") format("woff2"),
+      url("fonts/GrueneTypeNeue.woff") format("woff"),
+      url("fonts/GrueneTypeNeue.ttf") format("truetype"),
+      url("fonts/GrueneTypeNeue.svg#GrueneTypeNeue-Regular")
         format("svg");
-    font-weight: 900;
-    font-style: italic;
+    font-weight: normal;
+    font-style: normal;
     font-display: swap;
+    text-rendering: optimizeLegibility;
 }
